@@ -1,0 +1,91 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+.block{
+  position: relative;
+  /*width: 1276px;*/
+  height: 1753px;
+  margin-left: 82px;
+  margin-right: 82px;
+  margin-top: 42px;
+  background: #F1F2F6;
+}
+.adv{
+    position: relative;
+    left: 65px;
+    top: 65px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    font-size: 45px;
+    color: #111111;
+}
+.cards{
+    position: relative;
+    top: 90px;
+    display: flex;
+    /*justify-items: center;*/
+    /*align-items: center;*/
+/*    grid-template-columns: 362px 362px 362px;
+grid-template-rows: 225px 510px 510px 225px ;*/
+flex-wrap: wrap;
+justify-content: center;
+}
+.one{
+    display: inline-flex;
+}
+.eight{
+   display: inline-flex;
+}
+.card-margin{
+    margin-left: 30px;
+}
+.text-special{
+    width: 754px;
+    height: 225px;
+    background: #FFFFFF;
+    margin: 0;
+    margin-left: 30px;
+   
+}
+.image{
+    width: 362px;
+    height: 225px;
+    background:red;
+    /*position: relative;*/
+    
+}
+img{
+    width: 362px;
+height: 225px;
+}
+.text{
+    width: 362px;
+    height: 255px;
+    background: #FFFFFF;
+}
+.information{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 18px;
+    color: #111111;
+    padding-left: 25px;
+}
+.headline{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    font-size: 18px;
+    color: #111111;
+    margin-top: 0;
+    padding-top: 35px;
+    padding-left: 25px;
+}
+.card{
+ margin-top: 30px;
+}

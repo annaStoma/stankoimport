@@ -1,0 +1,138 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+.wrapper{
+    display: grid;
+    background-color: #ffffff;
+    height: 873px;
+}
+.back-block{
+    margin-top: 45px;
+    margin-bottom: 45px;
+    margin-left: 17px;
+    margin-right: 17px;
+    background-color:#ffffff;
+    display: grid;
+
+}
+.top-red{
+    width: 495px;
+    height: 200px;
+   grid-row-start: 2;
+   grid-row-end:1;
+    background-color: #D13129;
+    display: grid;
+  
+}
+.buttom-red{
+    width: 100%;
+    height: 200px;
+    bottom: 0;
+    background-color: #D13129;
+    align-self: end;
+}
+.front-block{
+    width: 1276px;
+    height: 607px;
+  justify-self: center;
+ position: absolute;
+ top: 133px;
+ z-index: 100;
+ background-color: #F1F2F6;
+  left:50%; 
+  margin-left:-638px;
+}
+.logo{
+    margin-top: 30px;
+ margin-right: 70px;
+    justify-self: end;
+}
+a{
+    text-decoration: none;
+    margin-left: 30px;
+    color: #111111;
+}
+ .menu{
+    position: absolute; 
+    height: 22px;
+    left: 592px;
+    top: 78px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 18px;
+ }
+.address{
+    position: absolute;
+ 
+    height: 22px;
+    left: 789px;
+    top: 773px;
+   
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 18px;
+    
+    color: #FFFFFF;
+}
+    
+.text{
+color: #111111;
+position: absolute;
+width: 623px;
+height: 106px;
+left: 147px;
+top: 140px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+line-height: normal;
+font-size: 45px;
+}
+.buy{
+    color: #ffffff;
+    position: absolute;
+width: 292px;
+height: 60px;
+left: 147px;
+top: 281px;
+
+background: #111111;
+box-shadow: 0px 10px 36px rgba(0, 0, 0, 0.3);
+}
+.youtube{
+    position: absolute;
+    width: 296px;
+    height: 59px;
+   left: 174px;
+   top: 478px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    font-size: 25px;
+    
+    color: #111111;
+}
+.youtube-icon{
+    position: absolute;
+width: 93px;
+ 
+left: 174px;
+top: 478px;
+}
+.machine{
+    position: absolute;
+width: 600px;
+
+left: 700px;
+top: -87px;
+
+ 
+}
